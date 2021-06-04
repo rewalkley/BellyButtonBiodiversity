@@ -134,6 +134,7 @@ function buildCharts(sample) {
      {
          value: wfreqs,
          title: { text: "Belly Button Washing Frequency"},
+         description: "Scrubs per week",
          type: "indicator",
          mode: "gauge+number",
          gauge: {
@@ -143,7 +144,7 @@ function buildCharts(sample) {
                {range: [0, 2], color: "firebrick"},
                {range: [2, 4], color: "orange"},
                {range: [4, 6], color: "yellow"},
-               {range: [6, 8], color: "dodgerblue"},
+               {range: [6, 8], color: "lightgreen"},
                {range: [8, 10], color: "forestgreen"}
              ]
          }
